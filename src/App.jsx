@@ -50,7 +50,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename="/SaludPlus_G5">
       <Routes>
         {/* Ruta pública - página de inicio */}
         <Route path="/" element={<Home />} />
